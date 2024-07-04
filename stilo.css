@@ -1,0 +1,43 @@
+body {
+	background-color: #22323C; 
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #82685F;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	color: #22323C;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000000;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
