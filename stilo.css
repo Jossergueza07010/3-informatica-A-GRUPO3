@@ -10,8 +10,12 @@ header {
 }
 
 header h1 {
-	color: #22323C;
-	margin-bottom: 10px;
+	color: #ffffff;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav ul {
