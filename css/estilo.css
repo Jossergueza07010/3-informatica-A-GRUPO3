@@ -9,7 +9,7 @@ body {
 } 
 
 .container {
-  background-image: url(/margen.png);
+  background-image: url(/imagenes/margen.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-size: width  100%;
