@@ -5,6 +5,7 @@ const togglePasswordButton = document.getElementById('toggle-password');
 
 let passwordVisible = false;
 
+
 togglePasswordButton.addEventListener('click', () => {
     if (passwordVisible) {
         passwordInput.type = 'password';

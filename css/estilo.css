@@ -6,21 +6,34 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-image: url(/imagenes/liberia.png);
-  background-origin: border-box;
-  background-size: 100% 350px;
+  background-image: url(/imagenes/libreria.png);
+  background-origin: padding-box;
+  background-size: 100% 80%;
   background-repeat: no-repeat;
-  background-position-y: 0px;
-  background-attachment: fixed;
-
+  background-position-y: 100%;
+  background-attachment: relative;
 } 
 
+.regresar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 5px 7px 5px 7px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #0c0c09;
+  color: #fff;
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 h1,#error-message{
   text-align: center;
 }
 
-.container {
+.container { 
   background-image: url(/imagenes/margen.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,18 +53,14 @@ h1,#error-message{
 label {
   color: #333;
   margin-bottom: 20px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .input-group {
   margin-bottom: 15px;
   position: relative;
-}
-
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
 }
 
 input[type="email"], input[type="password"] {
@@ -79,7 +88,7 @@ input[type="email"], input[type="password"] {
   color: #0f0d0d;
 }
 
-button[type="submit"] {
+.Ingresar{
   background-color: #0c0c09;
   color: #fff;
   padding: 12px 10px;
@@ -90,7 +99,7 @@ button[type="submit"] {
   width: 100%;
 }
 
-button[type="submit"]:hover {
+.Ingresar:hover, .regresar:hover{
   background-color: #76571d;
 }
 
