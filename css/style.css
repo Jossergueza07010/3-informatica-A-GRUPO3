@@ -1,19 +1,20 @@
 body {
-	margin: 0;
-	font-family: 'Arial', sans-serif;
-	background-color: #22323C;
+    font-family: 'Arial', sans-serif;
+    background-color: #22323c;
+    margin: 0;
 }
+
 header {
-	background-color: #82685F;
+	background: #82685F ;
 	color: white;
 	padding: 20px 0;
-	text-align: center;
+	text-align: right;
 	position: sticky;
 	top: 0;
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: right;
 	padding: 20px;
 	border-bottom: 4px solid black;
 }
@@ -32,46 +33,72 @@ header nav a {
 }
 header nav a:hover {
 	color: #f0a500;
+}       
+ 
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
-.content {
-	padding: 50px;
-	text-align: center;
+
+nav li {
+    margin-right: 20px;
 }
-.content h2 {
-	color: #fff;
+
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
-.books {
-	display: flex;
-	justify-content: space-around;
-	margin-top: 20px;
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.book {
-	background-color: #fff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.1);
-	width: 30%;
-	padding: 20px;
-	text-align: center;
-	transition: transform 0.3s;
+
+.login-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
-.book:hover {
-	transform: scale(1.05);
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
 }
-.book img {
-	width: 100%;
-	height: auto;
+
+.input-group {
+    margin-bottom: 15px;
 }
-.book p {
-	font-weight: bold;
-	color: #555;
-	margin-top: 10px;
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-footer {
-	background-color: #82685F;
-	color: white;
-	text-align: center;
-	position: fixed;
-	padding: 4px;
-	bottom: 0;
-	width: 100%;
-	font-size: 12px;
-}	
+
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+     }
+
+footer{
+    background-color: #82685f;
+    margin: 0;
+}
