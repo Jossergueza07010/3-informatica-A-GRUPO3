@@ -2,20 +2,23 @@ body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
 	background-color: #22323C;
+	background-image: url(/imagenes/estanteria.png);
+	background-repeat: no-repeat;
+	background-size: 100% 80%;
+
 }
 header {
-	background-color: #82685F;
+	background: #82685F ;
 	color: white;
 	padding: 20px 0;
 	text-align: center;
-	position: sticky;
+	position: static;
 	top: 0;
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
-	border-bottom: 4px solid black;
 }
 header img {
 	vertical-align: middle;
@@ -33,9 +36,33 @@ header nav a {
 header nav a:hover {
 	color: #f0a500;
 }
-.content {
-	padding: 50px;
+
+
+.info{
+	margin-top: 100px ;
+	display: flex;
 	text-align: center;
+	justify-content: center;
+	background-color: #51484B;
+}
+.caja h3 {
+	padding-left:25px ;
+}
+.caja{
+	padding: 25px;
+	background-color: #CDC7B9;
+	border-radius: 10px;
+	width: 45%;
+	height: 200px;
+	color: black;
+	text-align: justify;
+	margin: 5px;
+}
+
+.content {
+	margin-top: 100px;
+	padding: 50px;
+	background-color: #545454;
 }
 .content h2 {
 	color: #fff;
@@ -69,9 +96,9 @@ footer {
 	background-color: #82685F;
 	color: white;
 	text-align: center;
-	position: fixed;
+	position: static;
 	padding: 4px;
 	bottom: 0;
-	width: 100%;
+	width: 99.4%;
 	font-size: 12px;
 }	

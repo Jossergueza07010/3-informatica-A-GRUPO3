@@ -7,11 +7,9 @@ body {
   min-height: 100vh;
   margin: 0;
   background-image: url(/imagenes/libreria.png);
-  background-origin: padding-box;
   background-size: 100% 80%;
-  background-repeat: no-repeat;
   background-position-y: 100%;
-  background-attachment: relative;
+  background-attachment: fixed;
 } 
 
 .regresar {
@@ -29,11 +27,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-h1,#error-message{
-  text-align: center;
-}
-
-.container { 
+.formulario { 
   background-image: url(/imagenes/margen.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +39,7 @@ h1,#error-message{
   text-align: left;
 }
 
-.login-box {
+.caja-inicio {
   max-width: 250px;
   margin: 0 auto;
 }
@@ -58,12 +52,12 @@ label {
   font-weight: bold;
 }
 
-.input-group {
+.entrada {
   margin-bottom: 15px;
   position: relative;
 }
 
-input[type="email"], input[type="password"] {
+input[type="email"], input[type="password"], input[type="text"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
@@ -74,18 +68,9 @@ input[type="email"], input[type="password"] {
 .fas {
   position: absolute;
   right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 55%;
   color: #130e0e;
   cursor: pointer;
-}
-
-#toggle-password {
-  cursor: pointer;
-}
-
-#toggle-password:hover {
-  color: #0f0d0d;
 }
 
 .Ingresar{
@@ -103,9 +88,8 @@ input[type="email"], input[type="password"] {
   background-color: #76571d;
 }
 
-#error-message {
+#incorrecto {
   color: red;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  position: static;
+  margin: 10px 0px 0px;
+  text-align: center;
 }

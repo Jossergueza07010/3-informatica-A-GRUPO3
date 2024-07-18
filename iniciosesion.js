@@ -1,19 +1,19 @@
-const form = document.getElementById('login-form');
-const errorMessage = document.getElementById('error-message');
-const passwordInput = document.getElementById('password');
-const togglePasswordButton = document.getElementById('toggle-password');
+const form = document.getElementById('inicio-sesion');
+const mensaje = document.getElementById('incorrecto');
+const contra = document.getElementById('password');
+const alternarcontra = document.getElementById('visibilidad');
 
 let passwordVisible = false;
 
 
-togglePasswordButton.addEventListener('click', () => {
+alternarcontra.addEventListener('click', () => {
     if (passwordVisible) {
-        passwordInput.type = 'password';
-        togglePasswordButton.className = 'fas fa-eye';
+        contra.type = 'password';
+        alternarcontra.className = 'fas fa-eye';
         passwordVisible = false;
     } else {
-        passwordInput.type = 'text';
-        togglePasswordButton.className = 'fas fa-eye-slash';
+        contra.type = 'text';
+        alternarcontra.className = 'fas fa-eye-slash';
         passwordVisible = true;
     }
 });
@@ -24,12 +24,9 @@ form.addEventListener('submit', (event) => {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    // Comprueba si las credenciales son válidas (reemplázalas con tu lógica de validación)
     if (email === 'jose@gmail.com' && password === 'pepe123') {
-        // Credenciales correctas, puedes redirigir a la página siguiente aquí
-        window.location.href = '/html/index.html'; // Reemplázalo con la URL de tu página segura
+        window.location.href = '/html/index.html'; 
     } else {
-        // Credenciales incorrectas, muestra un mensaje de error
-        errorMessage.textContent = 'Correo electrónico o contraseña incorrectos.';
+        mensaje.textContent = 'Correo electrónico o contraseña incorrectos.';
     }
 });
