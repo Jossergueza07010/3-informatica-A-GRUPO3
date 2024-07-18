@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
 	background-color: #22323C;
+	font-size: 15px;
 	background-image: url(/imagenes/estanteria.png);
 	background-repeat: no-repeat;
 	background-size: 100% 80%;
@@ -10,7 +11,7 @@ body {
 header {
 	background: #82685F ;
 	color: white;
-	padding: 20px 0;
+	padding: 10px 0;
 	text-align: center;
 	position: static;
 	top: 0;
@@ -25,6 +26,7 @@ header img {
 }
 header nav {
 	display: flex;
+	align-items: center;
 }
 header nav a {
 	color: white;
@@ -33,13 +35,21 @@ header nav a {
 	font-weight: bold;
 	transition: color 0.3s;
 }
-header nav a:hover {
-	color: #f0a500;
+
+#cc{
+   background-color: black;
+   border-radius: 100px;
+   padding: 15px;
 }
-
-
+#cc:hover{
+	color: #6e6767;
+	text-decoration: none;
+}
+header nav a:hover {
+	color: #030303;
+}
 .info{
-	margin-top: 100px ;
+	margin-top: 150px ;
 	display: flex;
 	text-align: center;
 	justify-content: center;
