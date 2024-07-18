@@ -9,11 +9,11 @@ let passwordVisible = false;
 alternarcontra.addEventListener('click', () => {
     if (passwordVisible) {
         contra.type = 'password';
-        alternarcontra.className = 'fas fa-eye';
+        alternarcontra.className = 'fa fa-eye';
         passwordVisible = false;
     } else {
         contra.type = 'text';
-        alternarcontra.className = 'fas fa-eye-slash';
+        alternarcontra.className = 'fa fa-eye-slash';
         passwordVisible = true;
     }
 });
