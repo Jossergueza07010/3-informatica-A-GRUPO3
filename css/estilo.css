@@ -65,7 +65,7 @@ input[type="email"], input[type="password"], input[type="text"] {
   box-sizing: border-box;
 }
 
-.fas {
+.fa {
   position: absolute;
   right: 10px;
   top: 55%;
