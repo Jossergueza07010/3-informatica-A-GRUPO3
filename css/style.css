@@ -59,20 +59,20 @@ header nav a:hover {
 	margin: 5px;
 }
 
-.content {
+.contenido {
 	margin-top: 100px;
 	padding: 50px;
 	background-color: #545454;
 }
-.content h2 {
+.contenido h2 {
 	color: #fff;
 }
-.books {
+.libros {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
 }
-.book {
+.libro {
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	width: 30%;
@@ -80,14 +80,14 @@ header nav a:hover {
 	text-align: center;
 	transition: transform 0.3s;
 }
-.book:hover {
+.libro:hover {
 	transform: scale(1.05);
 }
-.book img {
+.libro img {
 	width: 100%;
 	height: auto;
 }
-.book p {
+.libro p {
 	font-weight: bold;
 	color: #555;
 	margin-top: 10px;

@@ -8,15 +8,14 @@ header {
 	background: #82685F ;
 	color: white;
 	padding: 20px 0;
-	text-align: right;
-	position: sticky;
+	text-align: center;
+	position: static;
 	top: 0;
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	align-items: right;
+	align-items: center;
 	padding: 20px;
-	border-bottom: 4px solid black;
 }
 header img {
 	vertical-align: middle;
@@ -31,6 +30,7 @@ header nav a {
 	font-weight: bold;
 	transition: color 0.3s;
 }
+
 header nav a:hover {
 	color: #f0a500;
 }       
@@ -54,15 +54,14 @@ nav a {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 .login-box {
     max-width: 400px;
-    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    left: 20px;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -98,7 +97,13 @@ button[type="submit"] {
     padding: 12px 20px;
      }
 
-footer{
-    background-color: #82685f;
-    margin: 0;
-}
+     footer {
+        background-color: #82685F;
+        color: white;
+        text-align: center;
+        position: static;
+        padding: 4px;
+        bottom: 0;
+        width: 99.4%;
+        font-size: 12px;
+    }	
