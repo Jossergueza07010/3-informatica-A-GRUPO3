@@ -40,7 +40,7 @@ body {
 }
 
 .caja-inicio {
-  max-width: 250px;
+  max-width: 215px;
   margin: 0 auto;
 }
 
@@ -57,9 +57,9 @@ label {
   position: relative;
 }
 
-input[type="email"], input[type="password"], input[type="text"] {
+  input[type="password"], input[type="text"] {
   width: 100%;
-  padding: 10px;
+  padding: 10px 30px 10px 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   box-sizing: border-box;
