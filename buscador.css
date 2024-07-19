@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8B4513; /* Color de fondo marrón */
+}
+
+.container {
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 700px; /* Aumenta aún más el ancho del buscador */
+    padding: 20px; /* Aumenta el padding */
+    font-size: 20px; /* Aumenta el tamaño de la fuente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Aumenta el espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan en varias líneas si es necesario */
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
