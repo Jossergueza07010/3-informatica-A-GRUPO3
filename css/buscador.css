@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/buscador.css
 body {
     display: flex;
     justify-content: center;
@@ -39,3 +40,46 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+=======
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8B4513; 
+}
+
+.container {
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 700px; 
+    padding: 20px; 
+    font-size: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+>>>>>>> 4ca1a5412b516417b211e002f9b2cad32e53c1d2:buscador.css
