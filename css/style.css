@@ -122,38 +122,65 @@ footer {
 
 
 /* Contactanos */ 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
 main {
-    min-height: 85vh;
-	display: flex;
-	justify-content: space-evenly;
-    align-items: center;	
+	margin: 0 15px 0 15px;
 }
 
-.login-box {
+.contactanos-pag {
+	min-height: 85vh;
+	display: flex;
+}
+
+.col-md-12 {
 	position: relative;
-	margin: 25px 0px 25px 0px;
-	width: 70vh;
-    padding: 30px 30px 60px 30px ;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #d9d9d9;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+span {
+	padding-right: 15px;
+	background-color: #22323C;
+}
+
+.title {
+	color: white;
+	margin-bottom: 25px;
+	position: relative;
+	padding-top: 8px;
+	padding-left: 0;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+	width: 100%
+}
+
+.title:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	border-top: 1px solid rgb(255, 255, 255);
+}
+
+
+.info-mapa {
+	margin: 25px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.info-contacto {
+	padding-left: 0;
+	font-size: 15px;
+	color: #faf8f8;
+	line-height: 1.6em;
+	margin-bottom: 10px;
 }
 
 .mapa {
@@ -161,36 +188,46 @@ main {
 	margin: 0px 30px 10px 30px;
 }
 
-h2 {
-    color: #333;
-    margin-bottom: 20px;
+.formulario {
+	max-height: 480px;
+	position: relative;
+	margin: 25px;
+	width: 90vh;
+	padding: 34px 30px 60px 30px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #d9d9d9;
 }
 
 .input-group {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
 }
 
-input[type="text"], input[type="number"], input[type="tel"], input[type="email"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="text"] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
 
 button[type="submit"] {
-    background-color: #a6a6a6;
-    color: #000000;
+	background-color: #a6a6a6;
+	color: #000000;
 	font-weight: bold;
-    padding: 12px 20px;
+	padding: 12px 20px;
 	position: absolute;
 	right: 5%;
 	border-radius: 10px;
 	border-color: #a6a6a6;
-}	
+}
+/* Fin de Contactanos */
