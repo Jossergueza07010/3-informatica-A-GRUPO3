@@ -1,3 +1,4 @@
+/* Pagina web */
 body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
@@ -7,7 +8,7 @@ body {
 }
 
 header {
-	background: #82685F ;
+	background: #82685F;
 	color: white;
 	padding: 10px 0;
 	text-align: center;
@@ -19,13 +20,16 @@ header {
 	align-items: center;
 	padding: 20px;
 }
+
 header img {
 	vertical-align: middle;
 }
+
 header nav {
 	display: flex;
 	align-items: center;
 }
+
 header nav a {
 	color: white;
 	text-decoration: none;
@@ -34,25 +38,42 @@ header nav a {
 	transition: color 0.3s;
 }
 
-#cc{
+#cc {
    background-color: black;
    border-radius: 100px;
    padding: 15px;
 }
-#cc:hover{
+
+#cc:hover {
 	color: #6e6767;
 	text-decoration: none;
 }
+
 header nav a:hover {
 	color: #030303;
 }
 
+footer {
+	background-color: #a89181;
+	color: white;
+	text-align: center;
+	position: static;
+	padding: 4px;
+	bottom: 0;
+	width: 99.4%;
+	font-size: 12px;
+}
 
-.info{
+/* Pagina web */
+
+
+/* Index */
+
+.info {
 	background-image: url(/imagenes/estanteria.png);
 	background-repeat: no-repeat;
 	background-size: 100% 80%;
-	margin-top: 0px ;
+	margin-top: 0px;
 	padding-top: 140px;
 	padding-bottom: 30px;
 	display: flex;
@@ -60,10 +81,12 @@ header nav a:hover {
 	justify-content: center;
 	background-color: #51484B;
 }
+
 .caja h3 {
-	padding-left:25px ;
+	padding-left: 25px;
 }
-.caja{
+
+.caja {
 	padding: 25px;
 	background-color: #CDC7B9;
 	border-radius: 10px;
@@ -80,45 +103,42 @@ header nav a:hover {
 	padding: 50px;
 	background-color: #545454;
 }
+
 .contenido h2 {
 	color: #fff;
 }
+
 .libros {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
 }
+
 .libro {
 	background-color: #fff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 30%;
 	padding: 20px;
 	text-align: center;
 	transition: transform 0.3s;
 }
+
 .libro:hover {
 	transform: scale(1.05);
 }
+
 .libro img {
 	width: 100%;
 	height: auto;
 }
+
 .libro p {
 	font-weight: bold;
 	color: #555;
 	margin-top: 10px;
 }
-footer {
-	background-color: #a89181;
-	color: white;
-	text-align: center;
-	position: static;
-	padding: 4px;
-	bottom: 0;
-	width: 99.4%;
-	font-size: 12px;
-}	
 
+/* Fin de index */
 
 
 /* Contactanos */ 
