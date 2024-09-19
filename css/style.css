@@ -8,11 +8,7 @@ body {
 }
 
 header {
-<<<<<<< HEAD
 	background: #82685f;
-=======
-	background: #82685F;
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 	color: white;
 	padding: 10px 0;
 	text-align: center;
@@ -25,7 +21,6 @@ header {
 	padding: 20px;
 }
 
-<<<<<<< HEAD
 .nombre-pag {
 	background-color: inherit;
 	font-size: 25px;
@@ -33,10 +28,6 @@ header {
 }
 header i {
 	font-size: 30px;
-=======
-header img {
-	vertical-align: middle;
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 }
 
 header nav {
@@ -67,7 +58,6 @@ header nav a:hover {
 	color: #030303;
 }
 
-<<<<<<< HEAD
 .pie-pagina {
 	width: 100%;
 	background-color: #a89181;
@@ -126,19 +116,6 @@ header nav a:hover {
 .pie-pagina .grupo-2 small{
 	font-size: 15px;
 }
-=======
-footer {
-	background-color: #a89181;
-	color: white;
-	text-align: center;
-	position: static;
-	padding: 4px;
-	bottom: 0;
-	width: 99.4%;
-	font-size: 12px;
-}
-
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 /* Pagina web */
 
 
@@ -212,15 +189,9 @@ footer {
 	color: #555;
 	margin-top: 10px;
 }
-<<<<<<< HEAD
-
-/* Fin de index */
-=======
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 
 /* Fin de index */
 
-<<<<<<< HEAD
 /* Contactanos */
 main#Contactanos {
 	margin: 0 15px 0 15px;
@@ -232,19 +203,6 @@ main#Contactanos {
 	display: flex;
 }
 
-=======
-
-/* Contactanos */ 
-main {
-	margin: 0 15px 0 15px;
-}
-
-.contactanos-pag {
-	min-height: 85vh;
-	display: flex;
-}
-
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 .col-md-12 {
 	position: relative;
 	min-height: 1px;
@@ -252,11 +210,7 @@ main {
 	padding-left: 15px;
 }
 
-<<<<<<< HEAD
 .title span {
-=======
-span {
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 	padding-right: 15px;
 	background-color: #22323C;
 }
@@ -286,11 +240,7 @@ span {
 
 
 .info-mapa {
-<<<<<<< HEAD
 	margin: 15px;
-=======
-	margin: 25px;
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -313,11 +263,7 @@ span {
 .formulario {
 	max-height: 480px;
 	position: relative;
-<<<<<<< HEAD
 	margin: 15px;
-=======
-	margin: 25px;
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
 	width: 90vh;
 	padding: 34px 30px 60px 30px;
 	border-radius: 5px;
@@ -357,7 +303,6 @@ button[type="submit"] {
 	border-color: #a6a6a6;
 }
 /* Fin de Contactanos */
-<<<<<<< HEAD
 
 /* catalogo */
 .container {
@@ -455,5 +400,3 @@ button[type="submit"] {
 .section {
 	max-width: 70vh;
 }
-=======
->>>>>>> 736d85a92ecc093fbc20c1c3efe48fc5138abab7
