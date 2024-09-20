@@ -305,51 +305,46 @@ button[type="submit"] {
 /* Fin de Contactanos */
 
 /* catalogo */
-.container {
-	text-align: center;
+.main-catalogo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.search-container {
-	margin-bottom: 20px;
+.container{
 	position: relative;
+	margin-top: 50px;
 }
 
-.search-container input[type="text"] {
-	width: 350px;
+.container input[type="text"]{
+	width: 300px;
 	padding: 10px;
 	padding-right: 35px;
 	border-radius: 5px;
 	border: 0;
 	outline: none;
+
 }
 
-#buscar {
-	padding: 10px 15px;
+#buscar{
+	padding: 10px 14px;
 	position: absolute;
 	border: 0;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	margin: auto;
-	border-radius: 5px;
+	border-radius:  0 5px 5px 0;
+	cursor: pointer;
 	background-color: white;
 }
 
-.image-container {
-	display: flex;
-	justify-content: center;
-	gap: 20px;
-	/* Aumenta el espacio entre las imágenes */
-	flex-wrap: wrap;
-	/* Permite que las imágenes se envuelvan en varias líneas si es necesario */
-}
+#buscar:hover{
+	background-color: black;
+	color: white;
+	transition: 0.4s;
 
-.image-container img {
-	width: 200px;
-	height: auto;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-}	
 
 /* Fin de catalogo */
 
