@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<title>BookReaders</title>
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
@@ -13,38 +13,25 @@
             <Span class="nombre-pag"> BOOKREADERS</Span> <i class="fa-solid fa-book"></i>
         </div>
         <nav>
-            <a href="/html/index.html">INICIO</a>
-            <a href="/html/Catalogo.html">CATÁLOGO</a>
-            <a href="/html/nosotros.html">ACERCA DE</a>
-            <a href="/html/contactanos.html">CONTACTANOS</a>
-            <a href="/html/inicio desesion.html" id="cc">INICIAR SESIÓN</a>
+            <a href="../html/index.html">INICIO</a>
+            <a href="../html/Catalogo.html">CATÁLOGO</a>
+            <a href="../html/nosotros.html">ACERCA DE</a>
+            <a href="../html/contactanos.html">CONTACTANOS</a>
+            <a href="../html/inicio desesion.html" id="cc">INICIAR SESIÓN</a>
         </nav>
     </header>
     <main>
         <div class="container">
             <input type="text" placeholder="buscar libros...">
-            <button id="buscar"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            <button id="abrir-pdf"><img src="../imagenes/libro1.png"></button>
         </div>
-        
-        <section class="categories">
-            <h2>Categorias
-            </h2>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"> </a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                </li>
-            </ul>
-        </section>
-
-        <section class="book-list">
-            <h2>libros</h2>
-            <div class="book-container">
-                <!-- Books will be added here dynamically -->
-            </div>
-        </section>
+        <script>
+            // Función para abrir el PDF en una nueva pestaña
+            document.getElementById('abrir-pdf').addEventListener('click', function() {
+                // Reemplaza "ruta/archivo.pdf" con la ruta correcta del archivo PDF
+                window.open('../archivos/Give and Take_ WHY HELPING OTHERS DRIVES OUR SUCCESS ( PDFDrive ).pdf', '_blank');
+            });
+        </script>
     </main>
     </body>
     <footer class="pie-pagina">
@@ -52,7 +39,7 @@
             <div class="box">
                 <figure>
                     <a href="#"></a>
-                    <img src="/imagenes/Logo.png" alt="Logo de BookReaders">
+                    <img src="../imagenes/Logo.png" alt="Logo de BookReaders">
                 </figure>
             </div>
             <div class="box"> 

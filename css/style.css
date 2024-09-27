@@ -305,45 +305,49 @@ button[type="submit"] {
 /* Fin de Contactanos */
 
 /* catalogo */
-.main-catalogo{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.container {
+	justify-content: flex-start;
+    width: 700px; /* Ancho del contenedor */
+    height: center;
+    padding: 40px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin-top: 150px; /* Espacio superior */
+    margin-bottom: 90px; /* Espacio inferior */
 }
 
-.container{
-	position: relative;
-	margin-top: 50px;
+input {
+    width: 700px; /* Ancho del campo de búsqueda */
+    height: center; /* Permite que la altura se ajuste automáticamente */
+    padding: 40px; /* Espaciado interno del campo */
+    font-size: 16px; /* Tamaño de fuente del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde */
+    text-align: center; /* Centra el texto dentro del campo de búsqueda */
+    margin: 0 auto; /* Asegura que el campo de búsqueda esté centrado horizontalmente */
+    display: block; /* Cambia a bloque para aplicar el margen automático */
+	margin-left: 300px; /* Añade margen a la izquierda para moverlo a la derecha */
+}
+#buscar {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
-.container input[type="text"]{
-	width: 300px;
-	padding: 10px;
-	padding-right: 35px;
-	border-radius: 5px;
-	border: 0;
-	outline: none;
 
+#abrir-pdf {
+    background-color: transparent; /* Sin color de fondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
-#buscar{
-	padding: 10px 14px;
-	position: absolute;
-	border: 0;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	margin: auto;
-	border-radius:  0 5px 5px 0;
-	cursor: pointer;
-	background-color: white;
-}
 
-#buscar:hover{
-	background-color: black;
-	color: white;
-	transition: 0.4s;
+#abrir-pdf img {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Altura automática */
 }
 
 /* Fin de catalogo */
@@ -433,3 +437,4 @@ button[type="submit"] {
     max-width: 70vh;
     z-index: 10;
 }
+
