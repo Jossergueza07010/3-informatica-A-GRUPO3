@@ -316,7 +316,7 @@ button[type="submit"] {
     margin-bottom: 90px; /* Espacio inferior */
 }
 
-input {
+#pepe {
     width: 700px; /* Ancho del campo de búsqueda */
     height: center; /* Permite que la altura se ajuste automáticamente */
     padding: 40px; /* Espaciado interno del campo */
