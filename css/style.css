@@ -319,7 +319,7 @@ button[type="submit"] {
 #pepe{
     width: 700px; /* Ancho del campo de búsqueda */
     height: center; /* Permite que la altura se ajuste automáticamente */
-    padding: 40px; /* Espaciado interno del campo */
+    padding: 20px; /* Espaciado interno del campo */
     font-size: 16px; /* Tamaño de fuente del texto */
     border-radius: 5px; /* Bordes redondeados */
     border: 1px solid #ccc; /* Borde */
