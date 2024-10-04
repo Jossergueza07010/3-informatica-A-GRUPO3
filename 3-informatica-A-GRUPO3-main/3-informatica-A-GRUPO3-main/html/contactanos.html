@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookReaders</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <Span class="nombre-pag"> BOOKREADERS</Span> <i class="fa-solid fa-book"></i>
+        </div>
+        <nav>
+            <a href="/index.html">INICIO</a>
+            <a href="../html/Catalogo.html">CATÁLOGO</a>
+            <a href="../html/nosotros.html">ACERCA DE</a>
+            <a href="../html/contactanos.html">CONTACTANOS</a>
+            <a href="../html/inicio de sesion.html" id="cc">INICIAR SESIÓN</a>
+        </nav>
+    </header>
+    <main id="Contactanos">
+        <div class="contacto">
+            <div class="col-md-12 contact">
+                <h2 class="title">
+                    <span>Contáctanos</span>
+                </h2>
+            </div>
+        </div>
+        <div class="contactanos-pag">
+            <div class="info-mapa">
+                <span class="info-contacto">Si tienes alguna duda, comentario o sugerencia, puedes contactarnos y nos
+                    comunicaremos contigo lo antes posible.
+                </span>
+                <hr>
+
+                <br>
+
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.212128718518!2d-79.99649426017375!3d-2.1819881302064026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73ef4e8ec0b9%3A0xeec5b1441df50d51!2sMISANSA%20S.A.%20Planta%202!5e1!3m2!1sen!2sec!4v1726109145819!5m2!1sen!2sec"
+                    width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="formulario">
+                <form id="login-form">
+                    <div id="nombreyapellido">
+                        <div class="input-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="cedula">Cédula:</label>
+                        <input type="tel" id="cedula" name="cedula" placeholder="Tu cédula" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular" placeholder="Tu celular" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <button type="submit">ENVIAR</button>
+                    <p id="error-message"></p>
+                </form>
+            </form>
+        </div>
+    </main>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#"></a>
+                    <img src="../imagenes/Logo.png" alt="Logo de BookReaders">
+                </figure>
+            </div>
+            <div class="box"> 
+                <h2>Información</h2>
+                <p>Direccion: k14.5 Via la Costa</p>
+                <p>Libreria Online dirijida a todo publico</p>
+            </div>
+            <div class="box"> 
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#"class="fa-brands fa-twitter"> </a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small> &copy; <b> BookReaders</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
+</body>
+</html>
