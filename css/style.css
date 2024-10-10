@@ -307,23 +307,28 @@ button[type="submit"] {
 /* catalogo */
 .container {
     display: flex;
-    justify-content: center; /* Centra el campo de búsqueda horizontalmente */
-    width: 800px; /* Ancho del contenedor */
-    padding: 10px; /* Espaciado interno */
-    font-size: 20px; /* Tamaño de fuente */
-    text-align: center; /* Centra el texto dentro del contenedor */
-    margin-top: 200px; /* Espacio superior */
-    margin-bottom: 20px; /* Espacio inferior */
-	margin-left: 300px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente, si es necesario */
+    margin: 0 auto;        /* Centra el contenedor en su padre */
+    padding: 20px;         /* Añade un poco de espacio alrededor */
+    width: 80%;            /* Puedes ajustar el ancho según necesites */
+    max-width: 600px;     /* Un ancho máximo para evitar que sea demasiado grande */
+	margin-top: 200px; /* Espacio superior */
+	margin-left: px;
 }
 
+
 .imagenes {
-	display: 800px ;
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    flex-wrap: wrap; /* Permitir que se ajusten a varias filas */
     gap: 10px; /* Espacio entre las imágenes */
-    padding: 20px; /* Espaciado alrededor del contenedor */ 
+    padding: 20px; /* Espaciado alrededor del contenedor */
 }
+
+
 input {
-    width: 1000%; /* Ancho del campo de búsqueda */
+    width: 800%; /* Ancho del campo de búsqueda */
     padding: 10px; /* Espaciado interno del campo */
     font-size: 16px; /* Tamaño de fuente del texto */
     border-radius: 5px; /* Bordes redondeados */
