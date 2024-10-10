@@ -1,4 +1,7 @@
 /* Pagina web */
+*{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
@@ -19,6 +22,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
+	border-bottom: 1px solid black;
 }
 
 .nombre-pag {
@@ -120,14 +124,17 @@ header nav a:hover {
 
 
 /* Index */
-
+.index {
+	background-image: url(/imagenes/Captura\ de\ pantalla\ 2024-10-09\ 235340.png);
+	background-repeat: repeat;
+}
+.fondo {
+	width: 100%;
+	height: 175px;
+	
+}
 .info {
-	background-image: url(/imagenes/estanteria.png);
-	background-repeat: no-repeat;
-	background-size: 100% 80%;
-	margin-top: 0px;
-	padding-top: 140px;
-	padding-bottom: 30px;
+	padding: 30px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -150,7 +157,6 @@ header nav a:hover {
 }
 
 .contenido {
-	margin-top: 100px;
 	margin-bottom: 50px;
 	padding: 50px;
 	background-color: #545454;
@@ -160,19 +166,29 @@ header nav a:hover {
 	color: #fff;
 }
 
+.sep{
+	width: 100%;
+	height: 100px;
+	background-color: #22323C;
+}
 .libros {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
+	gap: 20px;
 }
 
 .libro {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 30%;
 	padding: 20px;
 	text-align: center;
 	transition: transform 0.3s;
+	position: relative;
 }
 
 .libro:hover {
@@ -181,13 +197,17 @@ header nav a:hover {
 
 .libro img {
 	width: 100%;
-	height: auto;
+	height: 500px;
+
 }
 
-.libro p {
+.libro button {
+	padding: 15px;
+	background-color: #a6a6a6;
 	font-weight: bold;
 	color: #555;
 	margin-top: 10px;
+	bottom: 10px;
 }
 
 /* Fin de index */
@@ -201,6 +221,8 @@ main#Contactanos {
 	gap: 20px;
 	min-height: 85vh;
 	display: flex;
+	flex-direction: row-reverse;
+	margin: 0 25px;
 }
 
 .col-md-12 {
@@ -211,7 +233,7 @@ main#Contactanos {
 }
 
 .title span {
-	padding-right: 15px;
+	padding-right: 15px;	
 	background-color: #22323C;
 }
 
@@ -258,6 +280,8 @@ main#Contactanos {
 .mapa {
 	border-radius: 5px;
 	margin: 10%;
+	height: 60%;
+	width: 80%;
 }
 
 .formulario {
@@ -392,6 +416,7 @@ input {
 }
 
 .imagen-nosotros{
+	border-top: 20px solid #22323C;
     max-width: 100%;
     height: 300px;
 	display: flex;
@@ -403,13 +428,13 @@ input {
 	justify-content: center;
 	flex-direction: column;
 	max-height: 100%;
-	width: 500px;
+	width: 600px;
 	background-color: white;
 	opacity: 0.6;
 	margin-left: 150px;
 }
 .margen-about-us span{
-	margin-left: 35px;
+	margin: 0 35px;
 	font-size: 90px;
 	color: black;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -443,4 +468,3 @@ input {
     max-width: 70vh;
     z-index: 10;
 }
-
