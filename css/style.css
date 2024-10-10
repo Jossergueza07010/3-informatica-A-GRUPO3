@@ -1,4 +1,7 @@
 /* Pagina web */
+*{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
@@ -201,6 +204,8 @@ main#Contactanos {
 	gap: 20px;
 	min-height: 85vh;
 	display: flex;
+	flex-direction: row-reverse;
+	margin: 0 25px;
 }
 
 .col-md-12 {
@@ -211,7 +216,7 @@ main#Contactanos {
 }
 
 .title span {
-	padding-right: 15px;
+	padding-right: 15px;	
 	background-color: #22323C;
 }
 
@@ -258,6 +263,8 @@ main#Contactanos {
 .mapa {
 	border-radius: 5px;
 	margin: 10%;
+	height: 60%;
+	width: 80%;
 }
 
 .formulario {
@@ -386,6 +393,7 @@ button[type="submit"] {
 }
 
 .imagen-nosotros{
+	border-top: 20px solid #22323C;
     max-width: 100%;
     height: 300px;
 	display: flex;
@@ -397,13 +405,13 @@ button[type="submit"] {
 	justify-content: center;
 	flex-direction: column;
 	max-height: 100%;
-	width: 500px;
+	width: 600px;
 	background-color: white;
 	opacity: 0.6;
 	margin-left: 150px;
 }
 .margen-about-us span{
-	margin-left: 35px;
+	margin: 0 35px;
 	font-size: 90px;
 	color: black;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
