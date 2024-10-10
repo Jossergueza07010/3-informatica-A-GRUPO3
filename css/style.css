@@ -337,8 +337,7 @@ button[type="submit"] {
     padding: 20px;         /* Añade un poco de espacio alrededor */
     width: 80%;            /* Puedes ajustar el ancho según necesites */
     max-width: 600px;     /* Un ancho máximo para evitar que sea demasiado grande */
-	margin-top: 200px; /* Espacio superior */
-	margin-left: px;
+	margin-bottom: 25px;
 }
 
 
@@ -348,6 +347,7 @@ button[type="submit"] {
     flex-wrap: wrap; /* Permitir que se ajusten a varias filas */
     gap: 10px; /* Espacio entre las imágenes */
     padding: 20px; /* Espaciado alrededor del contenedor */
+	margin-bottom: 50px;
 }
 
 
