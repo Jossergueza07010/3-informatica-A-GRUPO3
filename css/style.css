@@ -22,6 +22,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
+	border-bottom: 1px solid black;
 }
 
 .nombre-pag {
@@ -123,14 +124,17 @@ header nav a:hover {
 
 
 /* Index */
-
+.index {
+	background-image: url(/imagenes/Captura\ de\ pantalla\ 2024-10-09\ 235340.png);
+	background-repeat: repeat;
+}
+.fondo {
+	width: 100%;
+	height: 175px;
+	
+}
 .info {
-	background-image: url(/imagenes/estanteria.png);
-	background-repeat: no-repeat;
-	background-size: 100% 80%;
-	margin-top: 0px;
-	padding-top: 140px;
-	padding-bottom: 30px;
+	padding: 30px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -153,7 +157,6 @@ header nav a:hover {
 }
 
 .contenido {
-	margin-top: 100px;
 	margin-bottom: 50px;
 	padding: 50px;
 	background-color: #545454;
@@ -163,19 +166,29 @@ header nav a:hover {
 	color: #fff;
 }
 
+.sep{
+	width: 100%;
+	height: 100px;
+	background-color: #22323C;
+}
 .libros {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
+	gap: 20px;
 }
 
 .libro {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 30%;
 	padding: 20px;
 	text-align: center;
 	transition: transform 0.3s;
+	position: relative;
 }
 
 .libro:hover {
@@ -184,13 +197,17 @@ header nav a:hover {
 
 .libro img {
 	width: 100%;
-	height: auto;
+	height: 500px;
+
 }
 
-.libro p {
+.libro button {
+	padding: 15px;
+	background-color: #a6a6a6;
 	font-weight: bold;
 	color: #555;
 	margin-top: 10px;
+	bottom: 10px;
 }
 
 /* Fin de index */
