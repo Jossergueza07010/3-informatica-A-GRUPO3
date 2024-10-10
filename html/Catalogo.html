@@ -13,23 +13,44 @@
             <Span class="nombre-pag"> BOOKREADERS</Span> <i class="fa-solid fa-book"></i>
         </div>
         <nav>
-            <a href="/index.html">INICIO</a>
+            <a href="../html/index.html">INICIO</a>
             <a href="../html/Catalogo.html">CATÁLOGO</a>
             <a href="../html/nosotros.html">ACERCA DE</a>
             <a href="../html/contactanos.html">CONTACTANOS</a>
-            <a href="../html/inicio de sesion.html" id="cc">INICIAR SESIÓN</a>
+            <a href="../html/inicio desesion.html" id="cc">INICIAR SESIÓN</a>
         </nav>
     </header>
     <main>
         <div class="container">
-            <input id="pepe" type="text" placeholder="buscar libros...">
+            <input type="text" placeholder="buscar libros...">
+
+        </div>
+        <div class="imagenes"></div>         
             <button id="abrir-pdf"><img src="../imagenes/libro1.png"></button>
+            <button id="abrir-pdf1"><img src="../imagenes/libro5.png"></button>
+            <button id="abrir-pdf2"><img src="../imagenes/librodellibro.png"></button>
+            <button id="abrir-pdf3"><img src="../imagenes/libro4.png"></button>
         </div>
         <script>
             // Función para abrir el PDF en una nueva pestaña
             document.getElementById('abrir-pdf').addEventListener('click', function() {
                 // Reemplaza "ruta/archivo.pdf" con la ruta correcta del archivo PDF
                 window.open('../archivos/Give and Take_ WHY HELPING OTHERS DRIVES OUR SUCCESS ( PDFDrive ).pdf', '_blank');
+                
+            });
+            document.getElementById('abrir-pdf1').addEventListener('click', function() {
+                // Reemplaza "ruta/archivo.pdf" con la ruta correcta del archivo PDF
+                window.open('../archivos/50 Sombras de Grey ( PDFDrive ).pdf','_blank');
+                
+            });
+            document.getElementById('abrir-pdf2').addEventListener('click', function() {
+                // Reemplaza "ruta/archivo.pdf" con la ruta correcta del archivo PDF
+                window.open('../archivos/Pideme lo que quieras, ahora y siempre ( PDFDrive ).pdf', '_blank');
+
+            });
+            document.getElementById('abrir-pdf3').addEventListener('click', function() {
+                // Reemplaza "ruta/archivo.pdf" con la ruta correcta del archivo PDF
+                window.open('../archivos/Yo soy Eric Zimmerman ( PDFDrive ).pdf', '_blank');
             });
         </script>
     </main>

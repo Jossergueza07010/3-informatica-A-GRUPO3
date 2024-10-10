@@ -1,7 +1,4 @@
 /* Pagina web */
-*{
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
@@ -22,7 +19,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
-	border-bottom: 1px solid black;
 }
 
 .nombre-pag {
@@ -124,17 +120,14 @@ header nav a:hover {
 
 
 /* Index */
-.index {
-	background-image: url(/imagenes/Captura\ de\ pantalla\ 2024-10-09\ 235340.png);
-	background-repeat: repeat;
-}
-.fondo {
-	width: 100%;
-	height: 175px;
-	
-}
+
 .info {
-	padding: 30px;
+	background-image: url(/imagenes/estanteria.png);
+	background-repeat: no-repeat;
+	background-size: 100% 80%;
+	margin-top: 0px;
+	padding-top: 140px;
+	padding-bottom: 30px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -157,6 +150,7 @@ header nav a:hover {
 }
 
 .contenido {
+	margin-top: 100px;
 	margin-bottom: 50px;
 	padding: 50px;
 	background-color: #545454;
@@ -166,29 +160,19 @@ header nav a:hover {
 	color: #fff;
 }
 
-.sep{
-	width: 100%;
-	height: 100px;
-	background-color: #22323C;
-}
 .libros {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 20px;
-	gap: 20px;
 }
 
 .libro {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 30%;
 	padding: 20px;
 	text-align: center;
 	transition: transform 0.3s;
-	position: relative;
 }
 
 .libro:hover {
@@ -197,17 +181,13 @@ header nav a:hover {
 
 .libro img {
 	width: 100%;
-	height: 500px;
-
+	height: auto;
 }
 
-.libro button {
-	padding: 15px;
-	background-color: #a6a6a6;
+.libro p {
 	font-weight: bold;
 	color: #555;
 	margin-top: 10px;
-	bottom: 10px;
 }
 
 /* Fin de index */
@@ -221,8 +201,6 @@ main#Contactanos {
 	gap: 20px;
 	min-height: 85vh;
 	display: flex;
-	flex-direction: row-reverse;
-	margin: 0 25px;
 }
 
 .col-md-12 {
@@ -233,7 +211,7 @@ main#Contactanos {
 }
 
 .title span {
-	padding-right: 15px;	
+	padding-right: 15px;
 	background-color: #22323C;
 }
 
@@ -280,8 +258,6 @@ main#Contactanos {
 .mapa {
 	border-radius: 5px;
 	margin: 10%;
-	height: 60%;
-	width: 80%;
 }
 
 .formulario {
@@ -330,28 +306,32 @@ button[type="submit"] {
 
 /* catalogo */
 .container {
-	justify-content: flex-start;
-    width: 700px; /* Ancho del contenedor */
-    height: center;
-    padding: 40px; /* Espaciado interno */
+    display: flex;
+    justify-content: center; /* Centra el campo de búsqueda horizontalmente */
+    width: 800px; /* Ancho del contenedor */
+    padding: 10px; /* Espaciado interno */
     font-size: 20px; /* Tamaño de fuente */
     text-align: center; /* Centra el texto dentro del contenedor */
-    margin-top: 150px; /* Espacio superior */
-    margin-bottom: 90px; /* Espacio inferior */
+    margin-top: 200px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+	margin-left: 300px;
 }
 
-#pepe{
-    width: 700px; /* Ancho del campo de búsqueda */
-    height: center; /* Permite que la altura se ajuste automáticamente */
-    padding: 20px; /* Espaciado interno del campo */
+.imagenes {
+	display: 800px ;
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 20px; /* Espaciado alrededor del contenedor */ 
+}
+input {
+    width: 1000%; /* Ancho del campo de búsqueda */
+    padding: 10px; /* Espaciado interno del campo */
     font-size: 16px; /* Tamaño de fuente del texto */
     border-radius: 5px; /* Bordes redondeados */
     border: 1px solid #ccc; /* Borde */
     text-align: center; /* Centra el texto dentro del campo de búsqueda */
-    margin: 0 auto; /* Asegura que el campo de búsqueda esté centrado horizontalmente */
-    display: block; /* Cambia a bloque para aplicar el margen automático */
-	margin-left: 300px; /* Añade margen a la izquierda para moverlo a la derecha */
+    margin-right: 20px; /* Espacio entre el campo y el botón */
 }
+
 #buscar {
     padding: 10px 20px; /* Espaciado interno del botón */
     font-size: 16px; /* Tamaño de fuente del botón */
@@ -361,19 +341,16 @@ button[type="submit"] {
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
-
-#abrir-pdf {
+#abrir-pdf, #abrir-pdf1, #abrir-pdf2, #abrir-pdf3 {
     background-color: transparent; /* Sin color de fondo */
     border: none; /* Sin borde */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
-
-#abrir-pdf img {
+#abrir-pdf img, #abrir-pdf1 img, #abrir-pdf2 img, #abrir-pdf3 img {
     width: 150px; /* Ajusta el tamaño de la imagen */
     height: auto; /* Altura automática */
 }
-
 /* Fin de catalogo */
 
 /* Acerca de nosotros */
@@ -410,7 +387,6 @@ button[type="submit"] {
 }
 
 .imagen-nosotros{
-	border-top: 20px solid #22323C;
     max-width: 100%;
     height: 300px;
 	display: flex;
@@ -422,13 +398,13 @@ button[type="submit"] {
 	justify-content: center;
 	flex-direction: column;
 	max-height: 100%;
-	width: 600px;
+	width: 500px;
 	background-color: white;
 	opacity: 0.6;
 	margin-left: 150px;
 }
 .margen-about-us span{
-	margin: 0 35px;
+	margin-left: 35px;
 	font-size: 90px;
 	color: black;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
