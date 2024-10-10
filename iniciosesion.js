@@ -25,7 +25,7 @@ form.addEventListener('submit', (event) => {
     const password = document.getElementById('password').value;
 
     if (email === 'admin' && password === 'admin123') {
-        window.location.href = '/html/index.html'; 
+        window.location.href = "/index.html"; 
     } else {
         mensaje.textContent = 'Correo electrónico o contraseña incorrectos.';
     }
