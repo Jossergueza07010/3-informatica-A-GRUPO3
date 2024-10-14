@@ -1,124 +1,37 @@
-/* Pagina web */
 *{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body {
 	margin: 0;
 	font-family: 'Arial', sans-serif;
-	background-color: #22323C;
 	font-size: 15px;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
 
+main{
+	background-color: #22323C;
 }
 
 header {
 	background: #82685f;
-	color: white;
-	padding: 10px 0;
-	text-align: center;
-	position: static;
-	top: 0;
-	z-index: 1000;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-	border-bottom: 1px solid black;
-}
-
-.nombre-pag {
-	background-color: inherit;
-	font-size: 25px;
-	font-family: 'Times New Roman', Times, serif;
-}
-header i {
-	font-size: 30px;
-}
-
-header nav {
-	display: flex;
-	align-items: center;
-}
-
-header nav a {
-	color: white;
-	text-decoration: none;
-	margin: 0 15px;
-	font-weight: bold;
-	transition: color 0.3s;
-}
-
-#cc {
-	background-color: black;
-	border-radius: 100px;
-	padding: 15px;
-}
-
-#cc:hover {
-	color: #6e6767;
-	text-decoration: none;
-}
-
-header nav a:hover {
-	color: #030303;
-}
-
-.pie-pagina {
-	width: 100%;
-	background-color: #a89181;
-}
-.pie-pagina .grupo-1 {
-	width: 100%;
-	max-width: 1200px;
-	margin: auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 50px;
-	padding: 45px 0px;
-
-	
-}
-.pie-pagina .grupo-1 .box figure{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.pie-pagina .grupo-1 .box figure img{
-	width: 250px;
-}
-.pie-pagina .grupo-1 .box h2{
-	color: white;
-	margin-bottom: 25px;
+	padding: 0px 20px;
 	font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p{
-	color: #efefef;
-	margin-bottom: 10px;
-}
-.pie-pagina .grupo-1 .red-social a{
-	display: inline-block;
-	text-decoration: none;
-	width: 45px;
-	line-height: 45px;
-	color: #FFFFFF;
-	margin-right: 10px;
-	border-radius: 100px;
-	background-color: #917d6f;
-	text-align: center;
-	transition: all 300ms ease;
-}
-.pie-pagina .grupo-1 .red-social a:hover{
-	color: #7b695d;
-}
-.pie-pagina .grupo-2{
-	background-color: #917d6f;
-	padding: 15px 10px;
-	text-align: center;
-	color: #fff;
-}
-.pie-pagina .grupo-2 small{
-	font-size: 15px;
+
+
+footer{
+	width: 100%;
+	background-color: #a89181;
+	color: white;
+} 
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+.espaciooo{
+	color: #a89181;
 }
 /* Pagina web */
 
@@ -157,7 +70,6 @@ header nav a:hover {
 }
 
 .contenido {
-	margin-bottom: 50px;
 	padding: 50px;
 	background-color: #545454;
 }
@@ -214,7 +126,7 @@ header nav a:hover {
 
 /* Contactanos */
 main#Contactanos {
-	margin: 0 15px 0 15px;
+	padding: 0 15px;
 }
 
 .contactanos-pag {
@@ -225,7 +137,7 @@ main#Contactanos {
 	margin: 0 25px;
 }
 
-.col-md-12 {
+.nombrero {
 	position: relative;
 	min-height: 1px;
 	padding-right: 15px;
@@ -285,7 +197,7 @@ main#Contactanos {
 }
 
 .formulario {
-	max-height: 480px;
+	max-height: 680px;
 	position: relative;
 	margin: 15px;
 	width: 90vh;
@@ -347,11 +259,11 @@ button[type="submit"] {
     flex-wrap: wrap; /* Permitir que se ajusten a varias filas */
     gap: 10px; /* Espacio entre las imágenes */
     padding: 20px; /* Espaciado alrededor del contenedor */
-	margin-bottom: 50px;
+
 }
 
 
-input {
+.input {
     width: 800%; /* Ancho del campo de búsqueda */
     padding: 10px; /* Espaciado interno del campo */
     font-size: 16px; /* Tamaño de fuente del texto */
@@ -391,7 +303,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .section-N, .section{
@@ -410,7 +321,6 @@ input {
 }
 
 .section-N p {
-    font-size: 14px;
     line-height: 18px;
     justify-content: center;
 }
